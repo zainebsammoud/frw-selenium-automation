@@ -1,5 +1,5 @@
-Feature: Authentification - Orange HRM 
-ETQ utilisateur je souhaite m'authentifier
+	Feature: Authentification - Orange HRM
+  ETQ utilisateur je souhaite m'authentifier
 
   @connexion
   Scenario: Connexion sur l'application Orange
@@ -8,6 +8,3 @@ ETQ utilisateur je souhaite m'authentifier
     And je saisie le mot de passe
     And je clique sur le bouton login
     Then je me redirige vers la page home
-    
-
- 
